@@ -9,7 +9,8 @@ import (
 
 func main() {
 	models.Personalities = []models.Personality{
-		{Name: "Dias Vieira", History: "Marechal do Rio de Janeiro"},
+		{Id: 1, Name: "Dias Vieira", History: "Marechal do Rio de Janeiro"},
+		{Id: 2, Name: "Capitão Menezes", History: "Capitão do exército"},
 	}
 
 	fmt.Println("Iniciando o servidor com Go")
